@@ -1,3 +1,16 @@
+margin: 0 auto;
+    grid-column: 2/3;
+ 
+max-width: 840px;
+ 
+height: 30em;
+ 
+  max-width: 840px;
+  height: 30em;
+  margin: 0 auto;
+  grid-column: 2/3;
+  margin: 1rem;
+ 
                 <a href="wwr/site-plan-rafting.html">White water rafting siteplan</a>
 
  
