@@ -34,10 +34,12 @@ aside {
     color: #8dffcd;
   }
 
-  footer {
-    margin-top: 1em;
-    border-top: 1px solid #58585864;
+  .footer {
+    position:absolute;
     text-align: center;
+    
+  
+  justify-content:space-around;
   }
 
   nav {
@@ -101,7 +103,7 @@ aside img {
   left: 5%;
 }
 
-header, .grid, footer {
+header, .grid {
   max-width: 840px;  
   margin: 0 auto;
   align-items: center;
@@ -147,7 +149,10 @@ header, .grid, footer {
   height: 100px;
   padding: 10px;
   color : rgb(14, 27, 218);
-  right: 4em;
+  align-self: center;
+  text-align: center;
+  flex-wrap: wrap;
+  
 }
 
 .grid {

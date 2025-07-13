@@ -1,3 +1,46 @@
+    padding: 2rem;
+
+ 
+    margin-top: 1em;
+
+ 
+    align-self: center;
+
+ 
+flex-wrap: wrap;
+ 
+margin-top: 1em;
+ 
+left: 50px;
+ 
+left: 70%;
+ 
+left: 4em;
+  
+ 
+.footer p {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  color : rgb(14, 27, 218);
+  right: 4em;
+ 
+relative
+ 
+pace-between
+ 
+center
+ 
+display: flex;
+  flex-wrap: wrap;
+ 
+    display: flex;
+    flex-wrap: wrap;
+ 
+relative
+ 
+border-top: 1px solid #58585864;
+ 
 pa
  
 padding
