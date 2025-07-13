@@ -70,6 +70,8 @@ h1 {
   color: rgb(19, 31, 146);
 }
 
+p { padding: 0;}
+
 main {
   max-width: 840px;
   height: 30em;
