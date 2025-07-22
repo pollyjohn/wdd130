@@ -34,13 +34,6 @@ aside {
     color: #8dffcd;
   }
 
-  .footer {
-    position:absolute;
-    text-align: center;
-    
-  
-  justify-content:space-around;
-  }
 
   nav {
   background-color: var(--nav-background-color);
@@ -72,7 +65,7 @@ h1 {
   color: rgb(19, 31, 146);
 }
 
-p { padding: 0;}
+
 
 main {
   max-width: 840px;
@@ -145,17 +138,36 @@ header, .grid {
 }
 
 .footer p {
-  width: 400px;
-  height: 100px;
-  padding: 10px;
+  bottom: 0%;
   color : rgb(14, 27, 218);
-  align-self: center;
-  text-align: center;
-  flex-wrap: wrap;
+  width: 370px;
+  margin: 0% auto;
   
+}
+
+.footer {
+  position:sticky;
+  background-color: #0db57d;
+  align-items: center;
+
+  max-width: 840px;
+  
+  margin: 0% auto;
+  grid-column: 2/3;
+  
+  bottom: 0%;
+  
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #3746ca;
+
 }
 
 .grid {
   display: grid;
   align-items: center;
 }
+
+.body {align-items: center;}
