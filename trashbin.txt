@@ -1,3 +1,10 @@
+  list-style-type: none;
+
+ 
+</li>
+ 
+</li>
+ 
 align-items: center;
  
 static

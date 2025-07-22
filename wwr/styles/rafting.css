@@ -183,9 +183,14 @@ header img{
 .column {
   flex: 50%;
   padding:-90px;
+  list-style-type: none;
+
 }
 
 .H img {
   width: 130%;
   height: auto;
+}
+
+.row  {  list-style-type: none;
 }
