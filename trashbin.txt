@@ -1,3 +1,15 @@
+background
+ 
+  var(--nav--background-color
+ 
+hover
+ 
+-accent1-color
+ 
+primary-color
+ 
+nav-hover-link-color
+ 
 d61b1b
  
 8dffcd
