@@ -1,3 +1,5 @@
+renamed some philes to meet naming conventions
+ 
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Shantell+Sans&display=swap');
  
   background-color: #00aaf8;

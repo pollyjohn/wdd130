@@ -246,7 +246,7 @@ footer p {
 
   display: grid;
   grid-template-columns: 600% 20fr 20fr;
-  border-bottom: 0rm solid #12e012;
+  border-bottom: 1rem solid var(--accent2-color);
 
   flex: 10 10 100%;
 
