@@ -1,3 +1,21 @@
+d61b1b
+ 
+8dffcd
+ 
+fcf300
+ 
+margin-inline-end:initial;
+ 
+      display:flex;
+ 
+ / 1 / 5
+ 
+      align-items:start;
+
+ 
+  min-width: 90%;
+
+ 
   margin: 10%;
 
  
