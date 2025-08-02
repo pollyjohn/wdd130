@@ -1,3 +1,215 @@
+  margin: 10%;
+
+ 
+margin: 10%;
+ 
+   /* Remove margens desnecessárias */
+
+ 
+/* Remove margens desnecessárias */
+ 
+margin: 0;
+ 
+border-bottom: 1rem solid var(--accent2-color);
+ 
+background-color: var(--accent2-color);
+ 
+border-bottom: 0px solid #fcf300;
+ 
+ackground-color:  var(--nav-link-color);
+ 
+        <div class="sociallinks">
+            <a id="facebook" href="https://www.facebook.com/">
+              <img src="images/facebook-logo.webp" alt="Facebook">
+            </a>
+            <a id="twitter" href="https://twitter.com">
+              <img src="images/twitter_logo.webp" alt="Twitter">
+            </a>
+            <a id="instagram" href="https://instagram.com" target="_blank">
+              <img src="images/instagramicon.jpg" alt="Instagram">
+            </a>
+        </div> 
+ 
+right: 0%;
+ 
+  width: 15%;
+ 
+  float: right;
+ 
+  margin: 0%;
+
+ 
+start
+ 
+relative
+ 
+width: 100%;
+ 
+ grid-column: 6/8;
+ 
+elative
+ 
+block
+ 
+instagram
+ 
+1fr
+ 
+center
+ 
+sticky
+ 
+700px
+ 
+align-items: center;
+ 
+  grid-template-columns: 600% 20fr 20fr;
+ 
+grid-template-columns: 20% 20% 20% 20% 20%;
+ 
+ext-align: end;
+ 
+background-color: #fcf300;
+ 
+background-size: cover;
+  background-position: center;
+
+ 
+background-image: url("../images/hero.jpg");
+ 
+relative
+ 
+<h1 >Gravity adventures</h1>
+ 
+100vh
+ 
+align-self: self-start;
+  
+ 
+end
+ 
+        flex: 10 10 100%;
+
+ 
+: 1 / 1 / 1 / 1;
+ 
+margin-left: 5rem;
+  
+ 
+padding-right: 2rem;
+ 
+left: 68%;
+
+ 
+display: flex;
+ 
+background-position:center;
+ 
+background-size:cover;
+ 
+  background-image: url("../images/hero.jpg");
+
+ 
+auto
+ 
+    height: auto;
+ 
+    padding: 1rem;
+
+ 
+scale-down
+ 
+center
+ 
+contain
+ 
+.h {
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
+  position: relative;
+  display: grid; 
+  height: auto;
+  padding: 2rem 0;
+  text-align:center;
+  align-items: center;
+}
+ 
+center
+ 
+  margin: 5%;
+
+ 
+ float: left;
+ 
+padding: 0%;
+ 
+      padding: 1rem;
+
+ 
+grid-template-columns: 700px 20fr 20fr;
+ 
+margin-top: 3%;
+ 
+<!--
+ 
+ display: grid;
+ 
+grid-area: 1 / 1 / 1 / 1;
+
+ 
+grid-template-columns:auto;
+ 
+grid-template-columns: 700px 20fr 20fr;
+ 
+100
+ 
+0fr 20fr
+ 
+
+        justify-items:center;
+ 
+space-between
+ 
+sticky
+ 
+margin: 5%;
+ 
+   padding: 1%;
+ 
+absolute
+ 
+flex
+ 
+end
+ 
+      margin: 0rem auto;
+
+ 
+relative
+ 
+30
+ 
+0.2rem;
+
+ 
+flexbox
+ 
+inline-block
+ 
+3
+ 
+  background-color: #12e0e0;
+
+ 
+  margin: 1rem auto;
+
+ 
+flex
+ 
+fit-content
+ 
+padding: 0;
+ 
 renamed some philes to meet naming conventions
  
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Shantell+Sans&display=swap');

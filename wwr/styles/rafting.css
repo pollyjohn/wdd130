@@ -16,22 +16,21 @@
   
   header{
     align-items: center;
-      margin: 0rem auto;
       display: grid;
-      grid-template-columns: 600px 20fr 20fr;
-      align-items: center;
-      border-bottom: 3px solid #fcf300;
+      grid-template-columns: 700px 20fr 20fr;
+      align-items:start;
+      border-bottom: 5px solid #fcf300;
       
     }
 
 
     #header-background {
-      position: relative;
-        width:fit-content;
-        padding: inherit;
+      position: sticky;
+        width:auto;
+        padding: 2rem;
         background-color: var(--secondary-color);
 
-        width: 100%;
+        width: auto;
         flex: 10 10 100%;
         grid-area: 1 / 1 / 1 / 1;
 
@@ -40,24 +39,24 @@
     
     header nav{
       position:absolute;
-      width: 25%;
-      float: right;
-      justify-content: space-evenly;
+      width: auto;
+      justify-content: space-around;
       background-color: var(--nav-background-color);
       font-size: 1.2rem;
-      display: flex;
-      margin: 35%;
+      display:flex;
+      padding: 1rem;
+   
     }  
     
       
     header nav a {
       position: relative;
-        display: block;
-        width: 30%;
+        display: flex;
+        width: auto;
         color: var(--nav-link-color);
         text-decoration: none;
         padding: 0%;
-        float: right;
+        float: left;
   
     }
 
@@ -100,49 +99,51 @@
 }
 
 .hero h1 {
-  grid-column: 3/4;
+  flex-wrap: nowrap;
+  z-index: 1;
+  grid-column: 2/4;
   grid-row: 1/1;
+  
+  text-size-adjust: 70% ;
+  padding: 3rem;
+  
 }
 
 .hero2 {
-
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
+  
+  grid-column: 1 / 6;
+  grid-row: 2 / 5;
 
   /* Garante que a imagem de fundo do cânion apareça */
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
-  background-position: center;
-
-  margin: 5%;
+  
+  
+  
   
   /* Define uma altura mínima para o container ser visível */
-  min-height: 100vh;
+  min-height: 80%;
 
   /* Define o grid onde vamos posicionar a imagem e o texto */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 
   
  
 }
 
 .hero2 img {
-  position: relative;
+  position:static;
 
   /* Define a área que a imagem vai ocupar */
-  grid-column: 1 / -1;  /* Ocupa todas as colunas (largura total) */
-  grid-row: 3 / 4;      /* Ocupa da segunda à última linha */
+  grid-column: 4 / 6;  /* Ocupa todas as colunas (largura total) */
+  grid-row: 2 / 5;      /* Ocupa da segunda à última linha */
 
   /* Faz a imagem preencher a área definida sem distorcer */
-  width: 25%;
+  width: 50%;
   height: auto;
   object-fit:scale-down; 
-  float: right;
-  display: flex;
-  left: 68%;
-  
+  float:inline-start;
+  margin-left: 3rem;
 
   }
 
@@ -154,7 +155,7 @@ article {
   background-repeat: no-repeat;
    background-position: center;
   color: #dd06cb;
-  font-size: 25px;
+  font-size: 200%;
   font-weight: bold;
   align-content: center;
   grid-column: 1 / 4;
@@ -174,22 +175,23 @@ article {
   color: #fcf300;
   font-weight: bold;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   width: auto; /* Largura se ajusta ao conteúdo */
-  margin: 0; /* Remove margens desnecessárias */
   z-index: 2; /* Garante que o texto fique na frente */
+  font-size: xx-large;
 
   
   
 }
 
 body {
-  max-width: 100%;
-  padding: 0;
+  max-width: auto;
+  width: auto;
   }
 
   main {
     display: grid;
+    max-width: auto;
   }
   
 
@@ -198,6 +200,7 @@ h1,h2,h3, h4, h5, h6 {
     color: var(--accent1-color);
     text-align:center;
     font-family: var(--heading-font);
+    font-size: 300%;
   }
 
   .h h2 {
@@ -206,51 +209,61 @@ h1,h2,h3, h4, h5, h6 {
   }
 
 p {
-  font-size: 90%;
+  font-size: 100%;
   
   font-family: var(--paragraph-font);
 }
 
 .hero p {
-  font-size: 60%;
+  font-size: 100%;
   
   font-family: var(--paragraph-font);
 }
 
 
 
-footer p {
-  position: absolute;
+.foot p {
+  position:relative;
+  align-self: center;
   text-align: center;
-  left: 30%;
-  margin-top: 3%;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  grid-column: 1/6;
+  left: 55%;
 }
 
+.foot {
+  
+  position:relative;
+  width: 100%;
+  height: 100px;
+  background-color:  var(--nav-link-color);
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: 1rem solid var(--accent2-color);
+  display: grid;
+  grid-column: 1 / 6;
+}
 
 .background {
 
-  align-items: center;
-  margin: 0rem auto;
+  
+  justify-content: space-evenly;
   display: grid;
-  grid-template-columns: 600px 20fr 20fr;
   
   border-bottom: 0px solid #fcf300;
-  width: 100%;
-
+  width: auto;
+  height: auto;
 
   position: absolute;
-  align-items: center;
+  align-items:start;
 
-  padding: inherit;
-  background-color: var(--secondary-color);
+  
+  
 
-  display: grid;
-  grid-template-columns: 600% 20fr 20fr;
-  border-bottom: 1rem solid var(--accent2-color);
+  grid-template-columns: repeat(6, 1fr);
+  
 
-  flex: 10 10 100%;
-
-  grid-area: 1 / 1 / 1 / 1;
+  grid-column: 3 / 7;
   
 }
 
@@ -259,25 +272,33 @@ footer p {
 
 .sociallinks {
   position:relative;
-  width: 2%;
-  float: right;
-  background-color: #12e0e0;
-  display: flex;
+  
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #15d6d600;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column:  6/ 7;
 }
 
 .sociallinks a{
+  position: relative;
   z-index: 1;
   display: block;
-  width: 15%;
-  float: right;
-  padding: 0.2rem;
+
+
 }
+
+#twitter{grid-column: 2/3;}
+#facebook {grid-column: 1/2;}
+#instagram {grid-column: 3/4;}
+
 
 
 
 header img{
   margin: 2% 5% 2% 3%;
-	width: 30%;
+	width: auto;
 	height: auto;
 }
 
@@ -296,9 +317,10 @@ header img{
   position: relative;
   grid-row: 2/4;
   grid-column: 1/2;
-  margin: 10%;
+  
   float: left;
   left: 15% ;
+  font-size: x-large;
 
 }
 
@@ -313,23 +335,23 @@ header img{
 }
 .p2 {
   position: relative;
-  margin: 10%;
   right: 15% ;
   grid-row: 2/4;
   grid-column: 5/6;
   float: right;
-  
+  font-size: x-large;
 }
 
 .row {
-  position: relative;
+  position: sticky;
   display: flex;
   right: 3%;
   justify-content: space-evenly;
 }
 
 .column {
-  flex: 50%;
+  display:block;
+  flex: 100%;
   list-style-type: none;
   justify-content: space-evenly;
 }
@@ -339,7 +361,7 @@ header img{
 }
 
 .H img {
-  width: 120%;
+  width: 100%;
   height: auto;
 }
 
