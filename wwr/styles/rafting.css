@@ -184,14 +184,14 @@ article {
 }
 
 body {
-  max-width: auto;
+  
   width: auto;
   min-width: 90%;
   }
 
   main {
     display: grid;
-    max-width: auto;
+    
   }
   
 

@@ -1,3 +1,7 @@
+max-width: auto;
+ 
+max-width: auto;
+ 
     padding: 3rem;
 
  
