@@ -104,16 +104,7 @@
 
 }
 
-.hero h1 {
-  flex-wrap: nowrap;
-  z-index: 1;
-  grid-column: 2/4;
-  grid-row: 1/1;
-  
-  text-size-adjust: 70% ;
-  padding: 3rem;
-  
-}
+
 
 .hero2 {
   
@@ -211,7 +202,22 @@ h1,h2,h3, h4, h5, h6 {
     font-family: var(--heading-font);
     font-size: 300%;
     text-shadow: #000 -15px 17px 13px;
+    
   }
+
+  .hero h1 {
+  
+    flex-wrap: nowrap;
+    z-index: 1;
+    grid-column: 2/4;
+    grid-row: 1/1;
+    text-size-adjust: 70% ;
+    padding: 3rem;
+    left: 25%;
+    
+  }
+
+
 
   .h h2 {
     grid-column: 3/4;
@@ -224,7 +230,7 @@ p {
   font-family: var(--paragraph-font);
 }
 
-.hero p {
+.p {
   font-size: 100%;
   
   font-family: var(--paragraph-font);
