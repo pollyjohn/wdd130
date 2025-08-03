@@ -1,3 +1,243 @@
+gb(196, 255, 204)
+ 
+0b5ffc
+ 
+secondary
+ 
+var(--nav-hover-link-color)
+ 
+aquamarine
+ 
+Poll
+ 
+  display: grid;
+
+ 
+text-align: center;
+ 
+right: 5rem;
+ 
+radio
+ 
+porpose
+ 
+  flex-wrap: ;
+ 
+  position: sticky;
+
+ 
+relative
+ 
+repeat(6, 1fr)
+ 
+grid-row: 2/3;
+ 
+flex-wrap: wrap-reverse;
+  overflow-wrap:break-word;
+ 
+center
+ 
+  position: absolute;
+
+ 
+  grid-row: 2/7;
+
+ 
+  padding: 3rem;
+  margin: 3rem;
+  border: 10rem;
+ 
+
+
+}
+ 
+  right: 3%;
+
+ 
+  position: sticky;
+
+ 
+.foot {
+ 
+  position:absolute;
+
+ 
+relative
+ 
+  position:absolute;
+
+ 
+bsolute
+ 
+position: absolute;
+ 
+1rem
+ 
+1rem
+ 
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.5rem 0;
+}
+ 
+.column2 {
+}
+
+ 
+  grid-template-columns: 1fr 2fr;
+
+ 
+orm {
+  display: grid;
+  align-items: center;
+  margin: 10%;
+}
+ 
+button {
+  margin: 1rem;
+  background-color: azure;
+  color: black;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+ 
+utton:hover {
+  background-color: darkcyan ;
+}
+
+ 
+footer {
+  margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: navy;
+  border-top: 3px solid navy;
+}
+ 
+5rem
+ 
+textarea
+ 
+border: 2%;
+ 
+type you message:
+ 
+/fieldset>
+ 
+"./images/team/staff6.jpg"
+ 
+.H {
+ 
+background-image: url("./images/rafting13_1024.jpg");
+
+ 
+  background-image: url("./images/rafting13_1024.jpg");
+
+ 
+background-image: url("./images/rafting13_1024.jpg");
+ 
+/pathway/web/wdd130/wwr
+ 
+home/joaopaulo/Documents/
+ 
+, Tahoma, Geneva, Verdana, sans-serif
+ 
+  position: relative;
+
+ 
+ for="porpose"
+ 
+Reservation
+ 
+</label>
+ 
+General Inquiry
+ 
+</label>
+ 
+<label for="porpose">Website suggestion</label>
+ 
+<label for="Reservation">Reservation Session</label>
+ 
+Genaral Inquiry
+ 
+text
+ 
+ul class="row">
+ 
+                <li>
+                    <figure class="column">
+                        <img src="images/rafting47_600.jpg" alt="having fun">  
+                    </figure>
+                </li>
+                <li>
+                    <figure class="column">
+                        <img src="images/rafting9_600.jpg" alt="having fun">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="column">
+                        <img src="images/rafting2_600.jpg" alt="having fun">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="column">
+                        <img src="images/rafting42_600.jpg" alt="having fun">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="column">
+                        <img src="images/rafting52_600.jpg" alt="having fun">
+                    </figure>
+                </li>
+            </ul>
+ 
+image1
+ 
+            <p class="p1">
+                We started to be in England and then got here in 
+                america when we all, employers and employees,
+                got in one of our boats and suddenly we got here. 
+                We immediatelly started making things up. My brothers 
+                broke apart and settled their own bussiness, which is now 
+                our main enemy. that's it.
+            </p>
+            <img src="images/premium_photo2.avif" alt="image3">
+            <p class="p2"> We started to be in England and then got here in 
+                america when we all, employers and employees,
+                got in one of our boats and suddenly we got here. 
+                We immediatelly started making things up. My brothers 
+                broke apart and settled their own bussiness, which is now 
+                our main enemy. that's it.
+            </p>
+
+ 
+<p></p>
+
+ 
+p>
+ 
+Gravity Rafting
+ 
+</div>
+ 
+                <article class="hero2">
+                    <img src="images/happyclient.avif" alt="see how people is here!">
+                    <p class="introduction">  Here in gravity adventures you need to be prepared<br>
+                        to have the most powrful measure of fun you've never<br>
+                        experienced before.
+                    </p>
+                </article>
+ 
+This web site was developed to help clients to understand details.
+ 
+Find here information about this bussines
+ 
+inconsistency
+ 
 max-width: auto;
  
 max-width: auto;
