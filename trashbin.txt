@@ -1,3 +1,8 @@
+  padding: 2%;
+
+ 
+f0f3f0
+ 
 f0f3f0
  
  stroke-width: 100%;

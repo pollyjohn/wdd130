@@ -427,7 +427,7 @@ display: grid;
   font-size:xx-large;
   font-family: var(--heading-font);
   background-color: var(--nav-hover-background-color);
-  color: #f0f3f0;
+  color: var(--accent2-color);
   text-size-adjust: auto ;
   word-wrap:break-word ;
   padding: 2%;
