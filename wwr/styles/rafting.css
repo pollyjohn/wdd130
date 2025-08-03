@@ -491,8 +491,10 @@ fieldset {
 }
 legend {
   padding: 0.5rem;
-  color:navy;
+  color:rgb(0, 0, 0);
   font-size: 1.3em;
+  stroke: #000;
+  font-weight: bolder;
 }
 
 label,input,button,textarea,select {
@@ -542,4 +544,8 @@ form button {
   position: relative;
   width: 20%;
   text-align: center;
+}
+
+.map {
+  box-shadow: 10px 19px 15px var(--accent2-color);
 }
