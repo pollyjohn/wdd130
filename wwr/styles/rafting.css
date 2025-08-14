@@ -93,33 +93,37 @@
 
 
 .hero {
+
   position: relative;
   text-align: center;
   display: grid;
   align-items: center;
-  
 
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
 
 }
 
+.hero img {
 
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-column: 1/6;
+  grid-row: 1/6;
+
+  
+}
 
 .hero2 {
   
   grid-column: 1 / 6;
-  grid-row: 2 / 5;
-
-  /* Garante que a imagem de fundo do cânion apareça */
-  
-  
-  
-  
-  /* Define uma altura mínima para o container ser visível */
+  grid-row: 2 / 5;  
   min-height: 80%;
 
-  /* Define o grid onde vamos posicionar a imagem e o texto */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -131,11 +135,9 @@
 .hero2 img {
   position:static;
 
-  /* Define a área que a imagem vai ocupar */
-  grid-column: 4 / 6;  /* Ocupa todas as colunas (largura total) */
-  grid-row: 2 / 5;      /* Ocupa da segunda à última linha */
+  grid-column: 4 / 6;  
+  grid-row: 2 / 5;     
 
-  /* Faz a imagem preencher a área definida sem distorcer */
   width: 50%;
   height: auto;
   object-fit:scale-down; 
@@ -161,22 +163,22 @@ article {
   
 }
 .introduction {
-  /* Define a MESMA área da imagem para que fiquem sobrepostos */
+  
   grid-column: 2 / 4;
   grid-row: 2 / 5;
 
-  /* Centraliza a caixa de texto verde no meio da área */
+
   justify-self: center;
   align-self: center;
 
-  /* Estilos da caixa de texto */
+
   background-color: var(--nav-hover-background-color);
   color: var(--accent1-color);
   font-weight: bold;
   text-align: center;
   padding: 1rem;
-  width: auto; /* Largura se ajusta ao conteúdo */
-  z-index: 2; /* Garante que o texto fique na frente */
+  width: auto; 
+  z-index: 2; 
   font-size: xx-large;
 
   
@@ -186,9 +188,8 @@ article {
 body {
   
   display: grid;
-  /* Header (auto), Main (1fr), Footer (auto) */
   grid-template-rows: auto 1fr auto; 
-  min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da tela */
+  min-height: 100vh; 
   width: auto;
   min-width: 90%;
 }
@@ -211,14 +212,23 @@ h1,h2,h3, h4, h5, h6 {
   }
 
   .hero h1 {
+
+  }
+
+  .hero h1 {
   
-    flex-wrap: nowrap;
     z-index: 1;
-    grid-column: 2/4;
-    grid-row: 1/1;
-    text-size-adjust: 70% ;
+    grid-column: 2 / 5; 
+    grid-row: 1 / 3; 
+   
+    text-align: center;
+    
+    justify-self: center;
+    align-self: center;
+
     padding: 3rem;
-    left: 25%;
+    
+    font-size: 200%;
     
   }
 
@@ -262,15 +272,15 @@ p {
   
   .foot {
     width: 100%;
-    height: auto; /* Deixe a altura ser automática */
-    padding: 1rem 0; /* Adiciona um pouco de espaço interno */
+    height: auto;
+    padding: 1rem 0; 
     background-color: var(--nav-link-color);
     border-bottom: 1rem solid var(--accent2-color);
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-column: 1 / -1;
     grid-row: 5 / 6;
-    /* Não precisa mais de grid-row aqui */
+
   }
 
 
@@ -403,6 +413,38 @@ header img{
   border-radius: 10%;
 }
 
+.callout {
+  position: absolute;
+  width: 100%;
+  height:min-content;
+  border: 8px solid var(--primary-color) ;
+  color:var(--nav-hover-link-color);
+  overflow-wrap: break-word ;
+  z-index: 1;
+  grid-column: 2 / 5; 
+  grid-row: 3 / 4; 
+  
+  text-align: center;
+  
+  justify-self: center;
+  align-self: center;
+margin: 1rem;
+padding: 1rem;
+
+  
+  font-size: 200%;
+
+  text-shadow:
+  -1px -1px 0 #000,
+  4px -4px 0 #000,
+  -4px 4px 0 #000,
+  4px 4px 0 #000;
+
+  
+}
+
+
+
 .row  {  list-style-type: none;
   justify-content: space-evenly;
 }
@@ -531,19 +573,21 @@ input[type="radio"] {
 }
 
 button[type="submit"] {
-  
+  display: inline-block;
   background-color: #5cf161;
   border-radius: 0.8rem;
-  grid-column: 2/4;
+  grid-column: 4/5;
   text-align: center;
   font-size:x-large ;
   font-family: var(--heading-font);
+  margin: 6rem;
 }
 
 form button { 
   position: relative;
   width: 20%;
-  text-align: center;
+  
+  
 }
 
 .wireframe {
@@ -558,4 +602,36 @@ form button {
   left: 30%;
   font-size: xx-large;
   word-wrap:break-word ;
+}
+
+
+.trips-promo {
+  background-color: var(--secondary-color); 
+  text-align: center;
+  padding: 3rem 0; 
+  border-bottom: 5px solid var(--primary-color);
+}
+
+.trips-text p {
+  color: var(--nav-hover-link-color); 
+  font-size: 2.5rem;
+  font-family: var(--heading-font);
+  margin-bottom: 2rem; 
+}
+
+.trips-promo .button {
+  display: inline-block; /* Para que o link possa ter altura e largura */
+  background-color: var(--primary-color); /* Fundo verde do botão */
+  color: var(--nav-link-color); /* Texto preto no botão */
+  font-size: 1.5rem;
+  font-family: var(--heading-font);
+  padding: 1rem 2rem; /* Espaçamento interno do botão */
+  text-decoration: none; /* Remove o sublinhado do link */
+  border-radius: 5px; /* Cantos arredondados */
+  transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+.trips-promo .button:hover {
+  background-color: var(--accent2-color); /* Mude a cor no hover */
+  color: var(--nav-hover-link-color);
 }

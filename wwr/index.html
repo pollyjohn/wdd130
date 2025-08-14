@@ -6,43 +6,92 @@
         <title> João Paulo Alves Pires Da Silva  WDD 130</title>
         <meta name="description" content="In this page you will find some information about me and my projects">
         <meta name="author" content="João Paulo Alves">
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" type="text/css" href="styles/rafting.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="#">Home</a>
-                <a href="wwr/site-plan-rafting.html">White water rafting siteplan</a>
-                <a href="wwr/about.html">Gravity adventures: About Us</a>
-                <a href="https://www.linkedin.com/in/jo%C3%A3o-da-silva-090b5a138" target="_blank">My linkedn profile</a>
-                <a href="https://www.facebook.com/joaopaulo.alves.520357" target="_blank">My facebook profile</a>
-                <a href="dataEngineerProject/BrazilianLaborMarket.html" target="_blank">data project</a>
+        <header id="header-background">
+            <img src="images/logo.png" alt="gravity logo">
+            <nav class="navigation">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">about Us</a>
+                <a href="./trips.html" target="_blank">Trips</a>
+                <a href="./contact.html" target="_blank">Contact Us</a>        
             </nav>
         </header>
         
             <main > 
-                <h1 class="H">Gravity adventures</h1>
+
                 <div class="hero">
-                        <p class="introduction"> Hi! Here in gravity adventures you need to be prepared<br>
-                            to have the most powerful measure of fun you've never<br>
-                            experienced before. That's our mission!.
-                        </p>
+                        
+                    <img src="./images/rafting13_1024.jpg" alt="fd">
+                    <h2 class="callout">Come experience the best adventure 
+                        of your life! Bring your family and friends to have fun with you. 
+                    </h1>    
                     
                 </div>
-                    <h1>João Paulo Alves Pires da Silva | WDD 130</h1>
-                <div class="description">
-                      
-                        <img src="" alt=" Hello, my name is João Paulo Alves" width="200">
-                        <p> Lorem ipsum dolor sit amet. Qui possimus accusantium non beatae 
-                        laborum rem error nisi in consequuntur ducimus. Vel excepturi molestiae ut dolor rerum in omnis
-                        laudantium. In expedita quidem id nesciunt voluptatem et reprehenderit quia qui maxime corrupti 
-                        est dolore laboriosam aut quas corrupti! Sit reiciendis doloribus id excepturi dolor aut inventore
-                        voluptas in aliquid molestias est praesentium voluptas!
+
+                <section class="UserMessageform">
+                    <h2>Sign up to our newsletter!</h2>
+                    <form>
+                        <fieldset>
+                            <legend> Adventures Newsletter</legend>
+                        <label for="name">Full name</label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email">
+                        </fieldset>                                    
+                        <button type="submit">Submit</button>
+                    </form>
+        
+                </section>
+
+
+                <section class="trips-promo">
+                    <div class="trips-text">
+                        <p>
+                            Visit our trips page right now and see what's waiting for you! 
                         </p>
-                </div>
+                        <a href="./trips.html" class="button">
+                            click on the button below
+                        </a>
+                    </div>
+                </section>
+
+                <section class="employees">
+                    <h2>Have a little view of what you'll find here</h2>
+                    <ul class="row">
+                        <li class="column"><figure><img src="./images/rafting17_600.jpg" alt="image1"> </figure></li>
+                        <li class="column"><figure><img src="./images/rafting9_600.jpg" alt="image2"></figure></li>
+                        <li class="column"><figure><img src="./images/rafting59_600.jpg" alt="image3"></figure></li>
+                        <li class="column"> <figure><img src="./images/rafting55_1024.jpg" alt="image4"></figure> </li>    
+                        
+                    </ul>
+                </section>
+
+
+
+   
                 </main>
-        <footer>
-            <p>©2025 💻🎲 João Paulo Alves 🎲💻 Brasília,Brazil</p>
-        </footer>
+
+                <footer class="foot">   
+                    <div class="sociallinks">
+                        <a id="facebook" href="https://www.facebook.com/">
+                          <img src="images/facebook-logo.webp" alt="Facebook">
+                        </a>
+                        <a id="twitter" href="https://twitter.com">
+                          <img src="images/twitter_logo.webp" alt="Twitter">
+                        </a>
+                        <a id="instagram" href="https://instagram.com" target="_blank">
+                          <img src="images/instagramicon.jpg" alt="Instagram">
+                        </a>
+                    </div> 
+                    <div class="background">
+                    <p >  ©2025 🚣‍♀️🌊 Gravity adventures🌊🚣‍♀️ João Paulo Alves</p>
+                    <a class="wireframe" href="https://docs.google.com/document/d/17-9_xEXhLsH3nr6N18blLEjVVxJZGdHLYP6ojXF6xvk/edit?usp=sharing" target="_blank"> website plan (Wireframe - click here)</a>
+                    </div>
+                    
+            
+                </footer>
+            
     </body>
 </html>

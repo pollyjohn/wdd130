@@ -1,3 +1,252 @@
+<span>adrenaline</span>
+ 
+<span>adrenaline</span>
+ 
+<span>adrenaline</span>
+ 
+<span></span>
+ 
+<span></span>
+ 
+side-canyon-sq.jpg
+ 
+rafting52_600.jpg
+ 
+side-canyon-sq.jpg
+ 
+rafting13_1024.jpg
+ 
+<li class="column"><figure><img src= "./images/team/staff7.jpg" alt="iamge3"></figure></li>
+                        <li class="column"><figure><img src="./images/team/staff4.jpg" alt="iamge4"></figure></li>
+ 
+/* Espaço entre o texto e o botão */
+ 
+/* Tamanho da fonte grande */
+ 
+/* Cor branca para o texto */
+ 
+/* Espaçamento interno em cima e embaixo */
+ 
+/* Fundo preto para contrastar */
+ 
+text-align: center;
+ 
+padding: 6rem;
+  margin: 3rem;
+ 
+
+  border: 10rem;
+ 
+border: 300px;
+ 
+submit
+ 
+        
+                        </fieldset>
+
+ 
+                        <label for="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                            Please, subscribe me to the monthly newsletter
+                        </label>
+
+ 
+    </fieldset>
+ 
+                        <fieldset>
+                            <legend>What the porpose of your message is: </legend>
+                            
+                            <label for="inquiry">
+                                <input type="radio" name="porpose" id="inquiry" value="Inquiry">
+                                General Inquiry
+                            </label>
+
+ 
+                        <fieldset>
+                            <legend>type you message:</legend>
+                        <label for="message">
+                            <textarea name="message" id="message">
+        
+                            </textarea>
+                        </label>
+ 
+                            <label for="suggestion">
+                                <input type="radio" name="porpose" id="suggestion" value="suggestion">
+                                Website suggestion
+                            </label>
+ 
+                            <label for="reservation">
+                                <input type="radio" name="porpose" id="reservation" value="reservation" checked>
+                                Session Reservation 
+                            </label>
+ 
+  padding: 1rem;
+
+ 
+/* Ocupe quase todas as linhas para ter espaço vertical */
+ 
+/* Altere a área para ocupar mais espaço */
+ 
+  /* Centralize o texto horizontalmente */
+
+ 
+  /* Centralize o conteúdo verticalmente */
+
+ 
+  /* Adicione um padding para que o texto não toque nas bordas da caixa */
+
+ 
+  /* Remova a propriedade left que o empurra para o lado */
+  /* left: 25%; */
+
+ 
+  /* Ajuste o tamanho da fonte para que caiba melhor */
+
+ 
+/*-------------------------------------------------------------*/
+
+ 
+  /* Garante que a imagem de fundo do cânion apareça */
+
+ 
+  /* Define uma altura mínima para o container ser visível */
+
+ 
+  /* Define o grid onde vamos posicionar a imagem e o texto */
+
+ 
+  /* Faz a imagem preencher a área definida sem distorcer */
+ 
+ /* Ocupa da segunda à última linha */
+
+ 
+/* Ocupa todas as colunas (largura total) */
+ 
+/* Garante que o texto fique na frente */
+ 
+/* Largura se ajusta ao conteúdo */
+ 
+  /* Estilos da caixa de texto */
+ 
+  /* Centraliza a caixa de texto verde no meio da área */
+ 
+/* Define a MESMA área da imagem para que fiquem sobrepostos */
+ 
+ /* Header (auto), Main (1fr), Footer (auto) */
+ 
+/* Garante que o body ocupe pelo menos a altura da tela */
+ 
+    /* Não precisa mais de grid-row aqui */
+ 
+/* Adiciona um pouco de espaço interno */
+ 
+ /* Deixe a altura ser automática */
+ 
+    /* Remova a propriedade left que o empurra para o lado */
+    /* left: 25%; */
+    
+    /* Ajuste o tamanho da fonte para que caiba melhor */
+ 
+
+    /* Adicione um padding para que o texto não toque nas bordas da caixa */
+ 
+ /* Centralize o conteúdo verticalmente */
+   
+ 
+ /* Centralize o texto horizontalmente */
+ 
+/* Ocupe quase todas as linhas para ter espaço vertical */
+    
+ 
+/* Altere a área para ocupar mais espaço */
+ 
+flex-wrap: nowrap;
+    z-index: 1;
+    grid-column: 2/4;
+    grid-row: 1/1;
+    text-size-adjust: 70% ;
+    padding: 3rem;
+    left: 25%;
+ 
+align-self:;
+ 
+relative
+ 
+isplay: flex
+ 
+  align-self: center;
+  align-items: center;
+  align-content: center;
+ 
+auto
+ 
+                 
+                <div class="description">
+                      
+                        <img src="" alt=" Hello, my name is João Paulo Alves" width="200">
+                        <p> Lorem ipsum dolor sit amet. Qui possimus accusantium non beatae 
+                        laborum rem error nisi in consequuntur ducimus. Vel excepturi molestiae ut dolor rerum in omnis
+                        laudantium. In expedita quidem id nesciunt voluptatem et reprehenderit quia qui maxime corrupti 
+                        est dolore laboriosam aut quas corrupti! Sit reiciendis doloribus id excepturi dolor aut inventore
+                        voluptas in aliquid molestias est praesentium voluptas!
+                        </p>
+                </div>
+ 
+secondary-color
+ 
+link
+ 
+-decoration-color: #fcf300
+ 
+-weight:bolder
+ 
+ brown
+ 
+grid-column: 3/6;
+ 
+<h1 class="callout">Gravity adventures</h1>
+ 
+grid-column: 2/5;
+  grid-row: 4/6;
+ 
+grid-template-rows: repeat(6, 1fr);
+ 
+repeat(6, 1fr);
+ 
+template
+ 
+  background-image: url('./images/rafting13_1024.jpg');
+ 
+position: absolute;
+ 
+  position: absolute;
+
+ 
+position: relative;
+ 
+h1>João Paulo Alves Pires da Silva | WDD 130</h1>
+ 
+<h1 class="callout">Gravity adventures</h1>
+ 
+<p class="introduction"> Hi! Here in gravity adventures you need to be prepared<br>
+                            to have the most powerful measure of fun you've never<br>
+                            experienced before. That's our mission!.
+                        </p>
+ 
+                <h1 class="H">Gravity adventures</h1>
+ 
+background-image: url('wwr/images/rafting13_1024.jpg');
+ 
+  background-image: url('wwr/images/rafting13_1024.jpg');
+ 
+background-image:;
+ 
+'wwr/images/rafting13_1024.jpg'
+ 
+/home/joaopaulo/Documents/pathway/web/wdd130/wwr/images/rafting13_1024.jpg
+ 
+/home/joaopaulo/Documents/pathway/web/wdd130/wwr/images/rafting13_1024.jpg
+ 
 color
  
 Site
