@@ -479,21 +479,26 @@ display: grid;
 }
 
 .employees {
+   display: grid;
    
     background-color: #f0f3f0;
 }
   
 .employees img {
-    width: 100%;
+    width: 95%;
     height: auto;
     box-shadow: 15px 17px 19px;
     border-radius: 10%;
   }
-  
+.employees p {
+  background-color: #f0f3f0;
+  word-wrap: break-word;
+  width: 90%;
+  padding: 5%;
+}  
   .row  {  list-style-type: none;
     justify-content: space-evenly;
   }
-
 
 
 .UserMessageform {
@@ -620,18 +625,60 @@ form button {
 }
 
 .trips-promo .button {
-  display: inline-block; /* Para que o link possa ter altura e largura */
-  background-color: var(--primary-color); /* Fundo verde do botão */
-  color: var(--nav-link-color); /* Texto preto no botão */
+  display: inline-block; 
+  background-color: var(--primary-color);
+  color: var(--nav-link-color); 
   font-size: 1.5rem;
   font-family: var(--heading-font);
-  padding: 1rem 2rem; /* Espaçamento interno do botão */
-  text-decoration: none; /* Remove o sublinhado do link */
-  border-radius: 5px; /* Cantos arredondados */
-  transition: background-color 0.3s ease; /* Transição suave para o hover */
-}
+  padding: 1rem 2rem; 
+  text-decoration: none;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;}
 
 .trips-promo .button:hover {
-  background-color: var(--accent2-color); /* Mude a cor no hover */
+  background-color: var(--accent2-color); 
   color: var(--nav-hover-link-color);
+}
+
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+caption {
+  caption-side:top;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
 }
